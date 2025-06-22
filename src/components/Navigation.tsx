@@ -1,7 +1,7 @@
 import Sun from "./Sun";
 import Moon from "./Moon";
 import { useContext } from "react";
-import { ThemeContext } from "../themeContext";
+import { ThemeContext } from "../ThemeContext";
 const navItems: string[] = ["Home", "About", "Contact"] as const;
 
 export default function Navigation() {
